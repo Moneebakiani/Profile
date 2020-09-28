@@ -1,0 +1,557 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	
+	font-family: 'Indie Flower', sans-serif;
+}
+
+a {
+	outline: none !important;
+}
+.heading
+{
+	margin: 50px;
+}
+/*-----Header & Banner Starts-------*/
+.navbar-brand1 {
+	color: #ffffff;
+	font-size: 26px;
+	margin-left: 255px;
+	margin-right: 270px;
+	text-decoration: none;
+    padding-top: 10px;
+}
+
+.navbar-brand1:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.navbar-header
+{
+	margin-top: 10px;
+}
+.navbar-toggle {
+	background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+	background-color: RGBA(0, 0, 0, 0.48);
+}
+
+.mynav {
+	transition: all 0.8s ease-in;
+	background: #1E59A0;
+}
+.mynav li a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.nav > li > a:focus, .nav > li > a {
+	color: #E1DBDB;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	background-color: #1E59A0;
+	color: #fff;
+	border-bottom: 2px solid #2973cd;;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+#myNavbar
+{
+	float: left;
+}
+
+.col1
+{
+  float: left;
+  width: 20%;
+  overflow: hidden;
+
+}
+.banner-img
+{
+	position: relative;
+    top: -112px;
+    left: -150px;
+    height: 500px;
+}
+.banner-img2
+{
+	position: relative;
+    top: 59px;
+    left: -24px;
+    height: 450px;
+}
+.banner-container
+{  
+	height: 100vh;
+	width: 100%;
+	background: #205faa;
+}
+.banner-wrapper
+{
+	position: relative;
+	top:25%;
+	margin-bottom: 30px;
+	float: left;
+	width: 60%;
+}
+.banner-text
+{
+	position: relative;
+}
+.banner-text h1
+{
+	color: #2A75D1;
+    font-family: "Poppins", Sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    text-shadow: 12px 24px 30px rgba(17, 47, 85, 0.2);
+}
+.banner-text1 
+{
+	position: absolute;
+	left: 25%;
+	top: 100px;
+	margin-bottom: 30px;
+}
+.banner-text1 h2
+{
+	color: #fff;
+	font-size: 70px;
+}
+.resume-btn{
+	padding: 18px 50px;
+    font-size: 18px;
+    background: #1A4D8D;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+.resume
+{
+	position: absolute;
+	left: 40%;
+	margin-top: 30px;
+}
+.resume-btn:hover{
+	background: #2973cd;
+}
+/*-----Header & Banner Ends-------*/
+
+/*-----About us starts---*/
+.about-me
+{
+	background: #205faa;
+	color: #fff;
+	padding: 50px 0;
+}
+.margin-bottom{
+	margin-bottom: 50px;
+}
+.about-img{
+	height:300px;
+	width: 400px;
+	position: relative;
+	float:right;
+}
+.about-img img
+{
+	width: 100%;
+	height: 100%;
+
+}
+
+/*-----Skills Ends---*/
+.skills
+{
+	background: #205faa;
+	color:#fff;
+	padding: 50px;
+}
+.skills img
+{
+  width: 20%;
+  height: 20%;
+}
+.skills h1
+{
+	font-weight: 700;
+	margin: 50px;
+	
+}
+.skills h4
+{
+	font-weight: 700;
+
+	
+}
+.skills ul li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:20px;
+}
+
+/*-----Skills Ends---*/
+
+/*--Services section starts--*/
+.services
+{
+	background:#205faa;
+	padding: 50px;
+	color:#fff;
+}
+.services h2{
+	font-weight: 700;
+}
+.service-section
+{
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.service-img
+{
+	width: 50%;
+    height: 35%;
+    position: relative;
+	left: 25%;
+	margin-bottom: 35px;
+}
+.service-img img{
+	width: 100%;
+	height: 100%;
+}
+.service-text h4
+{
+	margin: 25px;
+	font-weight: 700;
+}
+/*--Services section ends--*/
+
+
+/*--work section starts--*/
+.work{
+	background:#205faa;
+	color: #fff;
+}
+.work h2{
+	font-weight: 700;
+}
+.work-section
+{
+ padding: 50px;
+}
+.work h4{
+	font-weight: 700;
+}
+.work-img
+{
+	width: 260px;
+	height: 175px;
+	margin-bottom: 20px;
+}
+.work-img img
+{
+	width: 100%;
+	height: 100%;
+}
+/*--work section ends--*/
+
+
+/*-----Contact Starts-------*/
+
+footer {
+	background: #2973cd;
+	padding: 25px 0;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	float: left;
+}
+footer h2{
+	font-weight: 700;
+}
+footer ul.quicklinks {
+	margin-bottom: 0px;
+}
+footer ul.quicklinks a {
+
+	line-height: 40px;
+	text-decoration: none;
+}
+ul.footer-address{
+	list-style: none;
+	color: #fff;
+	margin-top: 15px;
+}
+.footer-address li i
+{
+	color: #6ec1e4;
+	padding-right: 10px;
+}
+.footer-text a{
+	color: #fff;
+	font-size: 22px;
+	
+}
+ul.social-buttons {
+	margin-bottom: 0;
+}
+ul.social-buttons li a {
+	background-color: #fff;
+	border-radius: 100%;
+	color: #205DA7;
+	display: block;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	outline: 0 none;
+	transition: all 0.3s ease 0s;
+	width: 40px;
+}
+ul.social-buttons li a i
+{
+	margin-left: 12px;
+	float: right;
+	
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+	background-color: #00aff0;
+	color:#fff;
+}
+.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+	outline: 0 none;
+}
+
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top: 1px solid #6ec1e4;
+}
+.arrow-up a
+{
+   color: #fff;
+}
+.arrow-up a i
+{
+	margin-top: 15px;
+	font-size: 20px;
+}
+/*-----Contact Starts-------*/
+
+@media (min-width:0px) and (max-width: 1200px) {
+	.navbar-brand1 {
+
+		margin-left: 180px;
+		margin-right: 150px;
+	
+	}
+	.banner-wrapper
+	{
+		width: 100%;
+	}
+	.col1{
+		width: 0%;
+	}
+	.banner-container {
+		height: 65vh;
+		width: 106%;
+	}
+	.about-me {
+		width: 106%;
+	}
+	.skills{
+		width: 106%;
+	}
+	.services{
+		width: 106%;
+	}
+	.work{
+		width: 106%;
+	}
+	footer
+	{
+		width: 106%;
+	}
+}
+@media (min-width:0px) and (max-width: 991px) {
+	.navbar-brand1 {
+
+		margin-left: 80px;
+		margin-right: 50px;
+	
+	}
+	.padding-text
+	{
+		padding-right: 30px;
+	}
+	.work-img {
+		width: 235px;
+		height: 155px;
+		margin-bottom: 20px;
+	}
+	.work-section
+	{
+		padding: 0px;
+	}
+}
+	@media (min-width:0px) and (max-width: 768px) {
+		.banner-container {
+			height: 60vh;
+		}
+		.banner-text h1 {
+			font-size: 100px;
+		}
+		.banner-text1 h2
+		{
+			font-size: 65px;
+		}
+		.banner-text1 
+		{
+			top:65px;
+		}
+		.resume-btn {
+			padding: 16px 40px;
+		}
+		.resume {
+			
+			left: 35%;
+		}
+	}
+		@media (min-width:0px) and (max-width: 600px) {
+			.banner-text h1 {
+				font-size: 70px;
+			}
+			.banner-text1 h2
+			{
+				font-size: 50px;
+			}
+			.banner-text1 
+			{
+				top:45px;
+			}
+			.resume-btn {
+				padding: 16px 30px;
+			}
+			.resume {
+				
+				left: 35%;
+			}
+			.banner-container {
+				height: 80vh;
+			}
+			.service-img {
+				width: 35%;
+				height: 35%;
+				position: relative;
+				left: 35%;
+				margin-bottom: 35px;
+			}
+			.work-img {
+				width: 565px;
+				height: 300px;
+				margin-bottom: 20px;
+			}
+		}
+		@media (min-width:0px) and (max-width: 540px) {
+			.banner-text h1 {
+				font-size: 50px;
+			}
+			.banner-text1 h2 {
+				font-size: 40px;
+			}
+			.banner-text1 {
+				top: 30px;
+				left: 25%;
+			}
+			.resume {
+				left: 33%;
+			}
+			.resume-btn {
+				padding: 12px 15px;
+			}
+			.about-img {
+			
+				float: left;
+			}
+			.work-img {
+				width: 470px;
+		
+			}
+			.banner-container {
+				height: 60vh;
+			}
+
+		}
+
+		@media (min-width:0px) and (max-width: 414px) {
+			.banner-text h1 {
+				text-align: center;
+			}
+			.work-img {
+				width: 99%;
+			}
+			.banner-text1 {
+				top: 30px;
+				left: 18%;
+			}
+			.resume {
+				left: 30%;
+			}
+		}
+		@media (min-width:0px) and (max-width: 360px) {
+			.banner-container {
+				width: 109%;
+			}
+			.about-me {
+				width: 109%;
+			}
+			.skills{
+				width: 109%;
+			}
+			.services{
+				width: 109%;
+			}
+			.work{
+				width: 109%;
+			}
+			footer
+			{
+				width: 109%;
+			}
+
+		}
+
+		@media (min-width:0px) and (max-width: 320px) {
+			.banner-container {
+				width: 130%;
+			}
+			.about-me {
+				width: 130%;
+			}
+			.skills{
+				width: 130%;
+			}
+			.services{
+				width: 130%;
+			}
+			.work{
+				width: 130%;
+			}
+			footer
+			{
+				width: 130%;
+			}
+
+		}
