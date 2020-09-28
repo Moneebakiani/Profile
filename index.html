@@ -384,10 +384,10 @@
       <div class = "col-md-6 col-sm-8 col-xs-12">
           <nav>
               <ul class = "nav navbar-nav">
-                <li><a href  = "#">About</a></li>
-                <li><a href  = "#">Skills</a></li>
-                <li><a href  = "#">Portfolio</a></li>
-                <li><a href  = "#">Contact Me</a></li>
+                <li><a href  = "#about">About</a></li>
+                <li><a href  = "#skills">Skills</a></li>
+                <li><a href  = "#work">Portfolio</a></li>
+                <li><a href  = "#contact">Contact Me</a></li>
               </ul>
           </nav>
       </div>
@@ -410,52 +410,6 @@
 <script type="text/javascript" src="js/parallax.js"></script> 
 
 <script>
-
-
-
-$(document).ready(function() {
-     
-      $("#owl-demo").owlCarousel({
-     
-          navigation : false, // Show next and prev buttons
-          slideSpeed : 500,
-		  autoPlay : 3000,
-          paginationSpeed : 400,
-          singleItem:true
-     
-          // "singleItem:true" is a shortcut for:
-          // items : 1, 
-          // itemsDesktop : false,
-          // itemsDesktopSmall : false,
-          // itemsTablet: false,
-          // itemsMobile : false
-     
-      });
-     
-    });
-
-	/*$('.timer').each(count);*/
-	jQuery(function ($) {
-      // custom formatting example
-      $('.timer').data('countToOptions', {
-        formatter: function (value, options) {
-          return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
-        }
-      });
-
-
-  // start all the timers
-      $('#testimonials').waypoint(function() {
-    $('.timer').each(count);
-	});
- 
-      function count(options) {
-        var $this = $(this);
-        options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-        $this.countTo(options);
-      }
-    });
-
 
 	$(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link

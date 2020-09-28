@@ -280,6 +280,7 @@ footer {
 footer h2{
 	font-weight: 700;
 }
+
 footer ul.quicklinks {
 	margin-bottom: 0px;
 }
@@ -321,7 +322,7 @@ ul.social-buttons li a {
 ul.social-buttons li a i
 {
 	margin-left: 12px;
-	float: right;
+	
 	
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
@@ -338,6 +339,10 @@ hr {
     margin-bottom: 25px;
     border: 0;
     border-top: 1px solid #6ec1e4;
+}
+.arrow-up
+{
+	float: right;
 }
 .arrow-up a
 {
