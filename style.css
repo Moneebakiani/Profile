@@ -78,16 +78,13 @@ a {
 .banner-img
 {
 	position: relative;
-    top: -112px;
-    left: -150px;
-    height: 500px;
+    height: 365px;
 }
 .banner-img2
 {
 	position: relative;
-    top: 59px;
-    left: -24px;
     height: 450px;
+	margin-top:230px;
 }
 .banner-container
 {  
